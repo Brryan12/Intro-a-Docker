@@ -13,6 +13,7 @@
 | `docker exec -it <nombre> bash`  | Ejecuta comandos dentro del contenedor       |
 
 ---
+![Texto alternativo](contenedores_esenciales.mkv)
 
 ## 💡 Ejercicio 1: Tu primer contenedor
 
