@@ -1,19 +1,34 @@
 ## 🛠️ Comandos esenciales
 
-| Comando                          | Descripción                                  |
-|----------------------------------|----------------------------------------------|
-| `docker run hello-world`         | Ejecuta una imagen de prueba                 |
-| `docker ps`                      | Lista contenedores en ejecución              |
-| `docker ps -a`                   | Lista todos los contenedores                 |
-| `docker stop <nombre|id>`        | Detiene un contenedor                        |
-| `docker start <nombre|id>`       | Inicia un contenedor detenido                |
-| `docker rm <nombre|id>`          | Elimina un contenedor                        |
-| `docker rmi <imagen|id>`         | Elimina una imagen                           |
-| `docker logs <nombre|id>`        | Muestra los logs del contenedor              |
-| `docker exec -it <nombre> bash`  | Ejecuta comandos dentro del contenedor       |
+| Comando                           | Descripción                                  |
+|-----------------------------------|----------------------------------------------|
+| `docker run hello-world`          | Ejecuta una imagen de prueba                 |
+| `docker ps`                       | Lista contenedores en ejecución              |
+| `docker ps -a`                    | Lista todos los contenedores                 |
+| `docker stop <nombre/id>`         | Detiene un contenedor                        |
+| `docker start <nombre/id>`        | Inicia un contenedor detenido                |
+| `docker rm <nombre/id>`           | Elimina un contenedor                        |
+| `docker rmi <nombre/id>`          | Elimina una imagen                           |
+| `docker logs <nombre/id>`         | Muestra los logs del contenedor              |
+| `docker exec -it <nombre/id> bash`| Ejecuta comandos dentro del contenedor       |
 
 ---
-![Texto alternativo](contenedores_esenciales.mkv)
+![Ver video contenedores esenciales](contenedores_esenciales.mkv)
+
+### Nota: Cuando se quiere detener/iniciar/eliminar un contenedor o imagen, se puede hacer mediante el comando respectivo y el ID o el nombre
+
+Ejemplo: 
+
+En el caso del contenedor de tetris, se podia detener de cualquiera de las siguientes maneras:
+
+1. Container ID:
+   ```bash
+   docker stop 2b28ab0022d
+
+2. Name:
+   ```bash
+   docker stop juego_tetris
+
 
 ## 💡 Ejercicio 1: Tu primer contenedor
 
