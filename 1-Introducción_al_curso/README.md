@@ -121,4 +121,26 @@ Permiten gestionar y actualizar software en dispositivos distribuidos remotament
 ### 7. Gobierno y seguridad
 Se utilizan para modularizar sistemas críticos, mejorar el aislamiento y automatizar procesos administrativos de forma segura.
 
+
+# 🐳 ¿Qué es una imagen en Docker?
+
+Una **imagen de Docker** es un **paquete liviano, independiente y ejecutable** que incluye **todo lo necesario para ejecutar una aplicación**: código, librerías, dependencias, herramientas del sistema y configuraciones.
+
+> **Es como una “plantilla” para crear contenedores.**
+
+Analogía: Imagina la imagen como un tupper donde llevas tu almuerzo al trabajo con los carbohidratos, la proterina y demas (código, dependencias y demás), cuando lo quieres comer, lo metes al microondas(el contenedor), y esperas a que caliente(esperas a que arranque el contenedor) y  ya está listo para comer (o para usar la aplicación)
+
+---
+
+## 🧱 ¿Qué contiene una imagen?
+
+Una imagen normalmente incluye:
+
+- El sistema operativo base (por ejemplo, Alpine o Ubuntu)
+- El código de tu aplicación
+- Dependencias (como Python, Node.js, Java, etc.)
+- Instrucciones de configuración
+
+---
+
 Muy bien, entendido todo esto, pasemos a los prerequisitos!

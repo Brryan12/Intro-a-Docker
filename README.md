@@ -24,9 +24,9 @@ Nota: Si es tu primera vez en docker o no tenes conocimientos sobre estos temas,
 
 ```text
 📁 Intro-a-Docker/
-├── 01-introduccion/
-├── 02-instalacion/
-├── 03-contenedores/
-├── 04-imagenes/
-├── 05-redes-volumenes/
+├── 01-introduccion_al_curso/
+├── 02-Contenedores_con_docker/
+├── 03-Construcción_de_imagenes/
+├── 04-Redes_y_Volumenes/
+├── 05-Docker-compose/
 └── 06-proyecto-final/
