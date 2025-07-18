@@ -15,8 +15,11 @@ Para generar la imagen debemos realizar la construcción del Dockerfile con el s
  Donde:
  
 **docker build** es el comando para realizar la construccion de la imagen.
+
 **.** Ruta donde se encuentra el archivo **Dockerfile**, en este caso se encuentra en la misma carpeta donde estamos corriendo el comando, esto lo inidcamos con el **.**
+
 **-t** Flag para indicar cual es el nombre que le queremos colocar a nuestra imagen.
+
 **calculadora** Este va a ser el numbre de nuestra imagen, esto puede variar a gusto.
 
 **Nota:**Revisa que estés dentro de la carpeta para poder ejecutar el comando con la ruta **.** si no tenes que modificarla.
@@ -35,7 +38,7 @@ Ahora nosotros podemos revisar los parametros y propiedades con los que fue crea
    docker inspect calculadora
  ```
 
- Acá podemos encontrar mucha información de esta imagen, entre ellos, los **LABEL** que colocamos, unicamente son visibles de este modo.
+Acá podemos encontrar mucha información de esta imagen, entre ellos, los **LABEL** que colocamos, unicamente son visibles de este modo.
 
 Para crear un contenedor a base de esta imagen, usaremos el comando:
 
@@ -47,4 +50,4 @@ Este contenedor si se ejecuta de manera normal se termina de manera inmediata, e
 
 Esto quiere decir que se ha iniciado con una terminal virtual activa que permite al usuario interactuar directamente con el contenedor, como si estuviera dentro de una terminal o consola dentro del mismo.
 
-![Ver video Explicativo Ejemplo 2](ejemplo2.mkv)
+![Ver video Explicativo Ejemplo 2](Ejemplo2.mkv)

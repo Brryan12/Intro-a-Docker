@@ -94,13 +94,13 @@ Simple con las variables por defecto
 
    ```bash
    docker run -d -p 80:80 --name docker-web simple-index
- ```
+```
 
 ó modificando las variables con ***-e***
 
     ```bash
     docker run -d -p 80:80 -e CREATOR="OSCAR" -e APP_ENVIROMENT=PRUEBAS --name docker-web simple-index 
- ```
+```
 
 Al igual que con la imagen podemos inspeccionar dentro de nuestro contenedor para observar sus parametos y ver como cambiaron las variables:
 
@@ -112,4 +112,4 @@ Nota: Este ejemplo está hosteado en NGINX podes encontrar mas información en s
 
 ![Documentación NGINX](https://nginx.org/)
 
-![Ver video Explicativo Ejemplo 2](ejemplo3.mkv)
+![Ver video Explicativo Ejemplo 2](Ejemplo3.mkv)
