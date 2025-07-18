@@ -21,7 +21,7 @@ Sirve para **parametrizar valores** que pueden cambiar al construir, como la ver
 
 # ENV en Docker
 
-### `ENV` (Variable de ambiente)
+### `ENV` (Variable de Entorno)
 
 #### 📌 ¿Qué es?
 
@@ -93,13 +93,13 @@ Para crear un contenedor a base de esta imagen, lo podemos hacer las siguientes 
 Simple con las variables por defecto
 
    ```bash
-   docker run -d --name docker-web simple-index
+   docker run -d -p 80:80 --name docker-web simple-index
  ```
 
 ó modificando las variables con ***-e***
 
     ```bash
-    docker run -e CREATOR="OSCAR" -e APP_ENVIROMENT=PRUEBAS -name docker-web simple-index 
+    docker run -d -p 80:80 -e CREATOR="OSCAR" -e APP_ENVIROMENT=PRUEBAS --name docker-web simple-index 
  ```
 
 Al igual que con la imagen podemos inspeccionar dentro de nuestro contenedor para observar sus parametos y ver como cambiaron las variables:
@@ -112,4 +112,4 @@ Nota: Este ejemplo está hosteado en NGINX podes encontrar mas información en s
 
 ![Documentación NGINX](https://nginx.org/)
 
-![Ver video Explicativo Ejemplo 2](Dockerfile)
+![Ver video Explicativo Ejemplo 2](ejemplo3.mkv)

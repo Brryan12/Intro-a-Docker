@@ -47,4 +47,4 @@ Este contenedor si se ejecuta de manera normal se termina de manera inmediata, e
 
 Esto quiere decir que se ha iniciado con una terminal virtual activa que permite al usuario interactuar directamente con el contenedor, como si estuviera dentro de una terminal o consola dentro del mismo.
 
-![Ver video Explicativo Ejemplo 2](Dockerfile)
+![Ver video Explicativo Ejemplo 2](ejemplo2.mkv)
