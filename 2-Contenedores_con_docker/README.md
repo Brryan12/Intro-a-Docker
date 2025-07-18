@@ -24,18 +24,16 @@ En el caso del contenedor de tetris, se podia detener de cualquiera de las sigui
 1. Container ID:
    ```bash
    docker stop 2b28ab0022d
-
+   
 2. Name:
    ```bash
    docker stop juego_tetris
-
 
 ## 💡 Ejercicio 1: Tu primer contenedor
 
 1. Ejecutá el clásico `hello-world`:
    ```bash
    docker run hello-world
-
 
 ## 💡 Ejercicio 2: Corriendo contenedores
 
@@ -49,11 +47,13 @@ Deten el contenedor
    ```bash
    docker stop <container id>
  ```
+
 Inicia el contenedor
 
    ```bash
    docker start <container id>
  ```
+
 Elimina el contenedor
 
    ```bash
@@ -62,25 +62,24 @@ Elimina el contenedor
 
  Elimina la imagen de nginx
 
-    ```bash
+   ```bash
    docker rmi nginx
  ```
 
-
 ## 💡 Ejercicio 3: Jugando con contenedores
-
 
 Descarga la imagen de tetris 
 
-    ```bash
+   ```bash
    docker pull bsord/tetris
  ```
 
  Crea un contenedor partiendo de esa imagen y despliegalo en el puerto 80
 
-    ```bash
+   ```bash
    docker run -d -p 80:80 --name tetris bsord/tetris
  ```
+
  Mira los logs del contenedor
 
    ```bash
