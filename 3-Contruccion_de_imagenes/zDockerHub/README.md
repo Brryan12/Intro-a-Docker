@@ -54,3 +54,5 @@ docker push oscarastua29/simple-index:latest
 - Verás la imagen y el tag que acabás de subir.
 
 ---
+
+![Ver video Explicativo Ejemplo 2](Dockerhub.mkv)
