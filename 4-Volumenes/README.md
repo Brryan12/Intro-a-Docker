@@ -30,25 +30,25 @@ Un **volumen** en Docker es una forma persistente de almacenar datos generados y
 
 Crear volumen
 
-    ```bash
+```bash
     docker volume create mi-primer-volumen
 ```
 
 Ver volumenes creados
 
-    ```bash
+```bash
     docker volume ls
 ```
 
 Crear contenedor con el volumen creado
 
-    ```bash
+```bash
     docker run -it -v mi-primer-volumen:/volumen ubuntu
 ```
 
 Creamos un archivo dentro del volumen
 
-    ```bash
+```bash
     touch hola.txt
 ```
 Detener y eliminar el primer contenedor
@@ -57,7 +57,7 @@ Luego,
 
 Crear un segundo contenedor con el volumen creado
 
-    ```bash
+```bash
     docker run -it -v mi-primer-volumen:/volumen ubuntu
 ```
 
@@ -67,13 +67,13 @@ Volumen compartido entre contenedores
 
 Creamos el contenedor 1
 
-    ```bash
+```bash
     docker run -it --name contenedor1 -v contenedor1:/volumen ubuntu
 ```
 
 Creamos el contenedor 2
 
-    ```bash
+```bash
     docker run -it --name contenedor2 -v contenedor1:/volumen ubuntu
 ```
 
@@ -81,7 +81,7 @@ Creamos el contenedor 2
 
 Enlaces local-contenedor
 
-    ```bash
+```bash
     docker run -it -v ./:/volumen ubuntu
 ```
 
@@ -91,13 +91,13 @@ Copiar archivos de local a contenedor y viceversa
 
 Creamos el contenedor 1
 
-    ```bash
+```bash
     docker run -it --name contenedor1 -v contenedor1:/volumen ubuntu
 ```
 
 Dentro del contenedor creamos un archivo dentro de la carpeta volumen
 
-    ```bash
+```bash
     docker touch hola.txt
 ```
 
