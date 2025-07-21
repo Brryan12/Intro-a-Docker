@@ -56,9 +56,9 @@ Simple con las variables por defecto
    docker build . -t simple-index
  ```
 
- ó modificando los argumentos con ***--build-arg***
+ó modificando los argumentos con ***--build-arg***
 
-    ```bash
+   ```bash
     docker build --build-arg UBUNTU_VERSION=20.04 -t simple-index .
  ```
 
@@ -98,7 +98,7 @@ Simple con las variables por defecto
 
 ó modificando las variables con ***-e***
 
-    ```bash
+   ```bash
     docker run -d -p 80:80 -e CREATOR="OSCAR" -e APP_ENVIROMENT=PRUEBAS --name docker-web simple-index 
 ```
 
