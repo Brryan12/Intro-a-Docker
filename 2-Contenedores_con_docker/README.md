@@ -91,3 +91,33 @@ Descarga la imagen de tetris
    ```bash
    docker exec -it <container id> bash
  ```
+
+
+
+## Extra
+
+## 🚀 Políticas de Reinicio en Contenedores Docker
+
+Este documento explica cómo configurar contenedores Docker para que se reinicien automáticamente cuando se reinicie el Docker Engine o el sistema operativo (host). Esto es útil para servicios que deben estar siempre activos.
+
+---
+
+## 🔁 ¿Qué es la opción `--restart`?
+
+Docker permite definir una **política de reinicio automática** al momento de crear un contenedor. Esta política determina si el contenedor debe reiniciarse y en qué condiciones.
+
+### 📌 Sintaxis básica
+
+```bash
+docker run --restart <POLÍTICA> ...
+
+## ✅ Políticas disponibles
+
+| Política           | ¿Qué hace?                                                                                      |
+|--------------------|------------------------------------------------------------------------------------------------|
+| `no` (por defecto) | El contenedor **no se reinicia automáticamente**.                                             |
+| `always`           | El contenedor se reinicia **siempre**, incluso si lo detenés manualmente o reiniciás el sistema. |
+| `unless-stopped`   | Se reinicia **siempre**, excepto si lo detenés manualmente. Ideal para la mayoría de casos.    |
+| `on-failure[:N]`   | Se reinicia **solo si sale con error**. Podés limitar la cantidad de intentos con `:N`.       |
+
+---
