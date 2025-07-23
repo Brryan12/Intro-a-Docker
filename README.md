@@ -31,7 +31,7 @@ Nota: Si es tu primera vez en docker o no tenes conocimientos sobre estos temas,
 ├── 05-Redes
 ├── 06-Docker-compose/
 └── 07-Proyecto-final/
-
+```
 ##Contacto
 
 📧 [oscaratua2002@gmail.com](mailto:oscaratua2002@gmail.com)  
