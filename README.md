@@ -9,6 +9,7 @@
 - Cómo crear y gestionar contenedores
 - Cómo trabajar con imágenes personalizadas
 - Cómo crear redes y volúmenes
+- Qué es y cómo usar Docker Compose
 - Buenas prácticas en el uso de Docker
 
 ## 🧰 Requisitos Preferibles
@@ -19,7 +20,8 @@ Antes de comenzar, necesitas tener:
 - Git instalado en tu sistema
 - Acceso a una terminal (Linux, macOS o Windows con WSL)
   
-Nota: Si es tu primera vez en docker o no tenes conocimientos sobre estos temas, no te preocupes, capítulo a capítulo de daré los esenciales para desempeñarte en el curso y aprender 
+Nota: Si es tu primera vez en docker o no tenes conocimientos sobre estos temas, no te preocupes, capítulo a capítulo de daré los esenciales para desempeñarte en el curso y aprender!!!
+
 ## 🗂 Estructura del curso
 
 ```text
