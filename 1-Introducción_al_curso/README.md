@@ -84,11 +84,6 @@ Cierto que la funcionalidad de un contenedor suena similar a la de una VM?
 - Arranque más lento
 - Menor densidad de instancias por hardware
 
-### Arquitectura VM VS CONTENEDOR
-
-Imagina que una máquina virtual (VM) es como construir una casa entera para cada aplicación. Cada casa tiene su propio terreno, cimientos, instalaciones eléctricas, su cocina, baño, todo independiente. En el mundo tecnológico, esto significa que cada VM incluye su propio sistema operativo completo —como Linux o Windows—, además del software que vas a ejecutar. Para lograrlo, necesitas un "constructor" especial llamado hipervisor, que es el encargado de gestionar todas esas casas dentro de un mismo edificio. Esto da mucha seguridad porque todo está aislado: si una casa se incendia, las demás no se ven afectadas. Pero también es costoso y lento. Construir una casa toma tiempo y recursos.
-
-En cambio, un contenedor es más parecido a vivir en un apartamento dentro de un mismo edificio. Compartes estructuras comunes, como los muros, el techo y el sistema eléctrico, pero cada apartamento tiene su propia decoración, reglas y habitantes. Técnicamente, todos los contenedores comparten el mismo sistema operativo del host (la estructura del edificio), pero funcionan como espacios separados con sus propios utensilios (dependencias, configuración y código de la aplicación). Esto los hace más livianos, rápidos de montar y más eficientes en el uso de recursos.
 
 La gran diferencia está en esa base: las máquinas virtuales necesitan replicar un sistema operativo completo para cada entorno, mientras que los contenedores se apoyan en el que ya existe. Por eso los contenedores se inician en segundos, mientras que las VMs tardan más. Pero esa eficiencia tiene un costo: los contenedores están menos aislados, así que una falla del sistema operativo anfitrión puede afectar a todos los contenedores.
 
@@ -128,7 +123,7 @@ Una **imagen de Docker** es un **paquete liviano, independiente y ejecutable** q
 
 > **Es como una “plantilla” para crear contenedores.**
 
-Analogía: Imagina la imagen como un tupper donde llevas tu almuerzo al trabajo con los carbohidratos, la proterina y demas (código, dependencias y demás), cuando lo quieres comer, lo metes al microondas(el contenedor), y esperas a que caliente(esperas a que arranque el contenedor) y  ya está listo para comer (o para usar la aplicación)
+Analogía: Imagina la imagen como un tupper donde llevas tu almuerzo al trabajo con los carbohidratos, la proteína y demas (código, dependencias y demás), cuando lo quieres comer, lo metes al microondas(el contenedor), y esperas a que caliente(esperas a que arranque el contenedor) y  ya está listo para comer (o para usar la aplicación)
 
 ---
 
@@ -142,5 +137,11 @@ Una imagen normalmente incluye:
 - Instrucciones de configuración
 
 ---
+
+Nota Importante:
+
+![Ver Comando Basicos de linux](arqui_vm_container.jpg)
+
+
 
 Muy bien, entendido todo esto, pasemos a los prerequisitos!
