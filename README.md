@@ -34,6 +34,13 @@ Nota: Si es tu primera vez en docker o no tenes conocimientos sobre estos temas,
 ```
 ##Contacto
 
-📧 [oscaratua2002@gmail.com](mailto:oscaratua2002@gmail.com)  
-📷 [Instagram](https://www.instagram.com/astua_29/)
+<p align="left">
+  <a href="mailto:oscaratua2002@gmail.com" target="_blank">
+    📧 <strong>oscaratua2002@gmail.com</strong>
+  </a><br>
+  <a href="https://www.instagram.com/gdgpv" target="_blank">
+    📷 <strong>@gdgpv</strong>
+  </a>
+</p>
+
 
