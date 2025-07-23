@@ -33,3 +33,14 @@ Nota: Si es tu primera vez en docker o no tenes conocimientos sobre estos temas,
 ├── 05-Redes
 ├── 06-Docker-compose/
 └── 07-Proyecto-final/
+```
+## Contacto
+
+<a href="mailto:oscaratua2002@gmail.com">
+  <img src="https://img.shields.io/badge/email-oscaratua2002@gmail.com-blue?style=flat&logo=gmail&logoColor=white">
+</a>
+<a href="https://instagram.com/astua_29">
+  <img src="https://img.shields.io/badge/Instagram-@astua_29-E4405F?style=flat&logo=instagram&logoColor=white">
+</a>
+
+
