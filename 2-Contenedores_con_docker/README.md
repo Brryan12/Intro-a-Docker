@@ -98,7 +98,7 @@ Descarga la imagen de tetris
 
 ## 🚀 Políticas de Reinicio en Contenedores Docker
 
-Este documento explica cómo configurar contenedores Docker para que se reinicien automáticamente cuando se reinicie el Docker Engine o el sistema operativo (host). Esto es útil para servicios que deben estar siempre activos.
+Este apartado explica cómo configurar contenedores Docker para que se reinicien automáticamente cuando se reinicie el Docker Engine o el sistema operativo (host). Esto es útil para servicios que deben estar siempre activos.
 
 ---
 
@@ -110,14 +110,19 @@ Docker permite definir una **política de reinicio automática** al momento de c
 
 ```bash
 docker run --restart <POLÍTICA> ...
+```
 
 ## ✅ Políticas disponibles
 
-| Política           | ¿Qué hace?                                                                                      |
-|--------------------|------------------------------------------------------------------------------------------------|
-| `no` (por defecto) | El contenedor **no se reinicia automáticamente**.                                             |
-| `always`           | El contenedor se reinicia **siempre**, incluso si lo detenés manualmente o reiniciás el sistema. |
-| `unless-stopped`   | Se reinicia **siempre**, excepto si lo detenés manualmente. Ideal para la mayoría de casos.    |
-| `on-failure[:N]`   | Se reinicia **solo si sale con error**. Podés limitar la cantidad de intentos con `:N`.       |
-
+| Política           | ¿Qué hace?                                                                                                  |
+|--------------------|-------------------------------------------------------------------------------------------------------------|
+| `no` (por defecto) | El contenedor **no se reinicia automáticamente** bajo ninguna circunstancia.                               |
+| `always`           | Se reinicia **siempre**, excepto si lo detenés manualmente. Se reinicia tras fallo o reinicio del sistema. |
+| `unless-stopped`   | Se reinicia igual que `always`, **pero no tras reinicio del sistema si lo habías detenido manualmente**.   |
+| `on-failure[N]`   | Se reinicia **solo si el contenedor sale con código de error**. Podés limitarlo con `:N`.                  |
 ---
+
+```bash
+docker update --restart=no nombre_contenedor
+docker stop nombre_contenedor
+```
