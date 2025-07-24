@@ -1,0 +1,27 @@
+version: "3.11"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend/data:/app/data
+    networks:
+      - todo-net
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - todo-net
+    depends_on:
+      - backend
+
+networks:
+  todo-net:
+
+volumes:
+  backend-data:
+

@@ -119,7 +119,7 @@ docker run --restart <POLÍTICA> ...
 | `no` (por defecto) | El contenedor **no se reinicia automáticamente** bajo ninguna circunstancia.                               |
 | `always`           | Se reinicia **siempre**, excepto si lo detenés manualmente. Se reinicia tras fallo o reinicio del sistema. |
 | `unless-stopped`   | Se reinicia igual que `always`, **pero no tras reinicio del sistema si lo habías detenido manualmente**.   |
-| `on-failure[N]`   | Se reinicia **solo si el contenedor sale con código de error**. Podés limitarlo con `:N`.                  |
+| `on-failure:N`   | Se reinicia **solo si el contenedor sale con código de error**. Podés limitarlo con `:N`.                  |
 ---
 
 ```bash

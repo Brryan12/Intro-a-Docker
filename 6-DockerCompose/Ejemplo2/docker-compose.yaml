@@ -1,0 +1,20 @@
+version: '3.8'  # Versión del formato Docker Compose
+
+services:
+  web:
+    container_name: mi_nginx  # Nombre personalizado para el contenedor
+    image: nginx:latest        # Imagen oficial de Nginx (última versión)
+    restart: always            # Política de reinicio: reinicia siempre que el contenedor se detenga
+    ports:
+      - "8080:80"              # Mapea puerto 80 del contenedor al 8080 del host
+    environment:
+      - NGINX_HOST=localhost   # Variable de entorno
+      - NGINX_PORT=80
+    volumes:
+      - ./html:/usr/share/nginx/html:ro  # Monta carpeta local ./html como solo lectura en el contenedor
+    networks:
+      - webnet                 # Conecta el contenedor a una red personalizada llamada 'webnet'
+
+networks:
+  webnet:
+    driver: bridge             # Crea una red de tipo puente personalizada

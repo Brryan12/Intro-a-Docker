@@ -1,0 +1,30 @@
+version: '3.11'
+
+services:
+  backend:
+    container_name: backend_flask
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+    networks:
+      - appnet
+    restart: always
+
+  frontend:
+    container_name: frontend_nginx
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+    depends_on:
+      - backend   # Espera a que backend esté creado y arrancado antes de levantar frontend
+    networks:
+      - appnet
+    restart: always
+
+networks:
+  appnet:
+    driver: bridge

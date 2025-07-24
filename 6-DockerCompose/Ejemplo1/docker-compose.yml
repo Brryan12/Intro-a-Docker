@@ -1,0 +1,7 @@
+version: '3.8'  # Versión del formato de Docker Compose
+
+services:
+  web:  # Definición del servicio llamado "web"
+    image: nginx:latest  # Usa la imagen oficial de Nginx, última versión disponible
+    ports:
+      - "8080:80"  # Mapea el puerto 80 del contenedor al puerto 8080 del host local
