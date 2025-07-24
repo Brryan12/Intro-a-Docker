@@ -1,5 +1,7 @@
 # 🚀 Introducción a Docker Compose
 
+## 🎥 Mira el video del capítulo
+
 [![Ver en YouTube](https://img.youtube.com/vi/QJmzx5CLJEs/0.jpg)](https://www.youtube.com/watch?v=QJmzx5CLJEs)
 
 ## 🤔 ¿Qué es un enfoque Declarativo vs Imperativo?
@@ -95,6 +97,14 @@ docker-compose down
 ```
 ### 🎥 Ejemplos en Video
 
+### Ejemplo 1
+
 [![Ejemplo 1](https://img.youtube.com/vi/p5KuC1in8tA/0.jpg)](https://www.youtube.com/watch?v=p5KuC1in8tA)
+
+### Ejemplo 2
+
 [![Ejemplo 2](https://img.youtube.com/vi/_vW2Melc2wk/0.jpg)](https://www.youtube.com/watch?v=_vW2Melc2wk)
+
+### Ejemplo 3
+
 [![Ejemplo 3](https://img.youtube.com/vi/9QV5a8eY-Go/0.jpg)](https://www.youtube.com/watch?v=9QV5a8eY-Go)

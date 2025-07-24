@@ -1,5 +1,7 @@
 # REDES EN DOCKER
 
+## 🎥 Mira el video de Redes
+
 [![Ver en YouTube](https://img.youtube.com/vi/IQbI91Wb3DA/0.jpg)](https://www.youtube.com/watch?v=IQbI91Wb3DA)
 
 ## 🌐 ¿Qué es una red?

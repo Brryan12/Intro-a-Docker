@@ -1,5 +1,7 @@
 # 📝 To-Do List App con Docker Compose
 
+## 🎥 Mira el video del Proyecto Final
+
 [![Ver en YouTube](https://img.youtube.com/vi/f1CZvYLkoFU/0.jpg)](https://www.youtube.com/watch?v=f1CZvYLkoFU)
 
 Este es un proyecto fullstack simple que implementa una aplicación de lista de tareas (**To-Do List**) usando:
