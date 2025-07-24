@@ -38,6 +38,19 @@ Nota: Si es tu primera vez en docker o no tenes conocimientos sobre estos temas,
 ├── 06-Docker-compose/
 └── 07-Proyecto-final/
 ```
+
+## 🔱 ¿Cómo hacer un fork de este repositorio?
+
+Si deseas utilizar este curso de manera local, puedes hacer un **fork** (una copia del repositorio en tu cuenta) siguiendo estos pasos:
+
+1. 🔘 Haz clic en el botón **"Fork"** en la esquina superior derecha de la página.
+2. 🗂️ Selecciona tu cuenta de GitHub como destino del fork.
+3. 💻 Una vez creado el fork, clona tu copia a tu máquina local:
+
+   ```bash
+   git clone https://github.com/tu-usuario/tu-fork.git
+   ```
+
 ## Contacto
 
 <a href="mailto:oscaratua2002@gmail.com">
