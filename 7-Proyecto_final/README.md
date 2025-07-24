@@ -19,7 +19,8 @@ Este es un proyecto fullstack simple que implementa una aplicación de lista de 
 │ ├── public/
 │ ├── package.json
 │ └── Dockerfile
-├── Respuesta-docker-compose.yml # Orquestador
+├── docker-compose.yml # Por modificar
+├── Respuesta-docker-compose.yml # Respuesta/apoyo
 └── README.md 
 ```
 
@@ -34,12 +35,18 @@ Asegúrate de tener instalado:
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
+Nota: Si tienes Docker Desktop, por lo general Docker compose se instala automaticamente, para comprobarlo corre en la terminal: 
+
+```bash
+ docker-compose -v
+ ```
+
 ### 🔧 Pasos para correr la app
 
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/todo-app.git
-   cd todo-app
+   cd 7-Proyecto_final
    ```
 
 3. Crea tu archivo docker-compose.yml

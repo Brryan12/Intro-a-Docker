@@ -39,7 +39,7 @@ Backend API: http://localhost:5000/api/message
 
 Ejecutar:
 
-Eliminación nomral
+Eliminación normal
 
 ```bash
 docker-compose down
