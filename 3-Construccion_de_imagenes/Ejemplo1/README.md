@@ -1,5 +1,7 @@
 ## Descripción Ejemplo 1
 
+[![Ver en YouTube](https://img.youtube.com/vi/PmfXDMzM4_g/0.jpg)](https://www.youtube.com/watch?v=PmfXDMzM4_g)
+
 Un docker file puede ser un archivo muy simple como el de este ejemplo:
 
 ![Dockerfile](Dockerfile)
@@ -39,5 +41,3 @@ Para crear un contenedor a base de esta imagen, usaremos el comando:
  ```
 
  Este contenedor únicamente imprime el mensaje y se termina, esto ya que un contenedor corre siempre y cuando su proceso inicial esté en ejecución
-
-![Ver video Explicativo Ejemplo 1](Ejemplo1.mkv)

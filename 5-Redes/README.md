@@ -1,5 +1,7 @@
 # REDES EN DOCKER
 
+[![Ver en YouTube](https://img.youtube.com/vi/IQbI91Wb3DA/0.jpg)](https://www.youtube.com/watch?v=IQbI91Wb3DA)
+
 ## 🌐 ¿Qué es una red?
 
 Una **red** es un conjunto de dispositivos conectados entre sí para **intercambiar datos**. Estos dispositivos pueden ser computadoras, servidores, teléfonos, contenedores, etc.

@@ -1,5 +1,7 @@
 ## Descripción Ejemplo 3
 
+[![Ver en YouTube](https://img.youtube.com/vi/tFdH4_Y_Gl8/0.jpg)](https://www.youtube.com/watch?v=tFdH4_Y_Gl8)
+
 Un dockerfile mas completo para este ejemplo:
 
 ![Dockerfile](Dockerfile)
@@ -112,4 +114,3 @@ Nota: Este ejemplo está hosteado en NGINX podes encontrar mas información en s
 
 ![Documentación NGINX](https://nginx.org/)
 
-![Ver video Explicativo Ejemplo 2](Ejemplo3.mkv)

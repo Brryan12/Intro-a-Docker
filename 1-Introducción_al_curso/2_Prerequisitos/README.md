@@ -7,3 +7,4 @@ En esta carpeta encontrarás las instrucciones específicas para instalar Docker
 - `docker-mac/` — Instalación para sistemas macOS
 
 ⚠️ Es importante seguir los pasos correctos según tu sistema para evitar errores y asegurar una configuración adecuada.
+

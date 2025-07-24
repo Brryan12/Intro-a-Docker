@@ -13,7 +13,7 @@
 | `docker exec -it <nombre/id> bash`| Ejecuta comandos dentro del contenedor       |
 
 ---
-![Ver video contenedores esenciales](contenedores_esenciales.mkv)
+[![Ver en YouTube](https://img.youtube.com/vi/YhA78GO68eY/0.jpg)](https://www.youtube.com/watch?v=YhA78GO68eY)
 
 ### Nota: Cuando se quiere detener/iniciar/eliminar un contenedor o imagen, se puede hacer mediante el comando respectivo y el ID o el nombre
 
@@ -95,6 +95,8 @@ Descarga la imagen de tetris
 
 
 ## Extra
+
+[![Ver en YouTube](https://img.youtube.com/vi/mS5g6oBlduE/0.jpg)](https://www.youtube.com/watch?v=mS5g6oBlduE)
 
 ## 🚀 Políticas de Reinicio en Contenedores Docker
 

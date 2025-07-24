@@ -1,8 +1,8 @@
 # 🐋 Cultura General
 
+[![Ver en YouTube](https://img.youtube.com/vi/nrlL20E2eNQ/0.jpg)](https://www.youtube.com/watch?v=nrlL20E2eNQ)
 
 ## Docker == Contenedor?
-
 Existen preguntas existenciales que al inicio pueden ser confusos de entender, pero conforme avancemos en el curso, se clarificarán, te lo aseguro!
 
 Unas de las mayores confusiones de las personas a la hora de iniciar con estos demas es:
@@ -140,8 +140,6 @@ Una imagen normalmente incluye:
 
 Nota Importante:
 
-![Ver Comando Basicos de linux](arqui_vm_container.jpg)
-
-
+[![Ver en YouTube](https://img.youtube.com/vi/HqYLpsGWLTo/0.jpg)](https://www.youtube.com/watch?v=HqYLpsGWLTo)
 
 Muy bien, entendido todo esto, pasemos a los prerequisitos!

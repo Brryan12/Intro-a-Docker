@@ -1,5 +1,9 @@
 # 📦 Curso Intro a Docker by Oscar Astúa
 
+## 🎥 Mira el video del curso
+
+[![Ver en YouTube](https://img.youtube.com/vi/8GANpO4niwE/0.jpg)](https://www.youtube.com/watch?v=8GANpO4niwE)
+
 ¡Bienvenido a este curso de Docker! 🚀 Aquí aprenderás a dominar los conceptos básicos de contenedores, imágenes, redes y volúmenes y mas, para que puedas crear entornos de desarrollo más ágiles y reproducibles.
 
 ## 📘 ¿Qué aprenderás?
@@ -42,6 +46,10 @@ Nota: Si es tu primera vez en docker o no tenes conocimientos sobre estos temas,
 
 <a href="https://instagram.com/astua_29">
   <img src="https://img.shields.io/badge/Instagram-@astua_29-E4405F?style=flat&logo=instagram&logoColor=white">
+</a>
+
+<a href="https://www.linkedin.com/in/oscar-astua-7b2756212" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Astua-blue?style=flat&logo=linkedin&logoColor=white">
 </a>
 
 

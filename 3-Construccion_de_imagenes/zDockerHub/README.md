@@ -1,5 +1,8 @@
 # 🐳 Guía: Cómo subir imágenes a Docker Hub
 
+[![Ver en YouTube](https://img.youtube.com/vi/X6J4_yVVel8/0.jpg)](https://www.youtube.com/watch?v=X6J4_yVVel8)
+
+
 ## 🧰 Requisitos previos
 - Tener Docker instalado.
 - Tener una cuenta en [Docker Hub](https://hub.docker.com).
@@ -54,5 +57,3 @@ docker push oscarastua29/simple-index:latest
 - Verás la imagen y el tag que acabás de subir.
 
 ---
-
-![Ver video Explicativo Ejemplo 2](Dockerhub.mkv)

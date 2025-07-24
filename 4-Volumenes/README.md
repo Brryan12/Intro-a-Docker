@@ -1,5 +1,7 @@
 # 📦 Volúmenes en Docker
 
+[![Ver en YouTube](https://img.youtube.com/vi/UaIP-Uohd60/0.jpg)](https://www.youtube.com/watch?v=UaIP-Uohd60)
+
 ## ¿Qué es un volumen?
 
 Un **volumen** en Docker es una forma persistente de almacenar datos generados y utilizados por los contenedores. Los volúmenes existen fuera del ciclo de vida del contenedor, por lo que puedes eliminar el contenedor sin perder los datos. Un volumen al final de cuentas viene siendo un directorio en el que se almacenan datos de un contenedor.

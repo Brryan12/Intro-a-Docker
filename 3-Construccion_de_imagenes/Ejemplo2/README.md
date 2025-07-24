@@ -1,5 +1,7 @@
 ## Descripción Ejemplo 2
 
+[![Ver en YouTube](https://img.youtube.com/vi/oUBFYVXyrg0/0.jpg)](https://www.youtube.com/watch?v=oUBFYVXyrg0)
+
 Un dockerfile con un poco mas de datos para este ejemplo:
 
 ![Dockerfile](Dockerfile)
@@ -49,5 +51,3 @@ Para crear un contenedor a base de esta imagen, usaremos el comando:
 Este contenedor si se ejecuta de manera normal se termina de manera inmediata, esto ya que un contenedor corre siempre y cuando su proceso inicial esté en ejecución, es por eso que se agrega el flag **-it** para que el contenedor se ejecute de manera interactiva
 
 Esto quiere decir que se ha iniciado con una terminal virtual activa que permite al usuario interactuar directamente con el contenedor, como si estuviera dentro de una terminal o consola dentro del mismo.
-
-![Ver video Explicativo Ejemplo 2](Ejemplo2.mkv)
