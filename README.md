@@ -53,7 +53,7 @@ Si deseas utilizar este curso de manera local, puedes hacer un **fork** (una cop
 
 ## Contacto
 
-<a href="mailto:oscaratua2002@gmail.com">
+<a href="mailto:oscarastua2002@gmail.com">
   <img src="https://img.shields.io/badge/email-oscaratua2002@gmail.com-blue?style=flat&logo=gmail&logoColor=white">
 </a>
 
