@@ -54,7 +54,7 @@ Si deseas utilizar este curso de manera local, puedes hacer un **fork** (una cop
 ## Contacto
 
 <a href="mailto:oscarastua2002@gmail.com">
-  <img src="https://img.shields.io/badge/email-oscaratua2002@gmail.com-blue?style=flat&logo=gmail&logoColor=white">
+  <img src="https://img.shields.io/badge/email-oscarastua2002@gmail.com-blue?style=flat&logo=gmail&logoColor=white">
 </a>
 
 <a href="https://instagram.com/astua_29">
@@ -62,7 +62,7 @@ Si deseas utilizar este curso de manera local, puedes hacer un **fork** (una cop
 </a>
 
 <a href="https://www.linkedin.com/in/oscar-astua-7b2756212" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Astua-blue?style=flat&logo=linkedin&logoColor=white">
+  <img src="https://img.shields.io/badge/LinkedIn-Oscar Astua-blue?style=flat&logo=linkedin&logoColor=white">
 </a>
 
 
