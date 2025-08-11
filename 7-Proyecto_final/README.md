@@ -25,7 +25,7 @@ Este es un proyecto fullstack simple que implementa una aplicación de lista de 
 │ └── Dockerfile
 ├── docker-compose.yml # Por modificar
 ├── Respuesta-docker-compose.yml # Respuesta/apoyo
-└── README.md 
+└── README.md
 ```
 
 ---
@@ -39,7 +39,7 @@ Asegúrate de tener instalado:
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
-Nota: Si tienes Docker Desktop, por lo general Docker compose se instala automaticamente, para comprobarlo corre en la terminal: 
+Nota: Si tienes Docker Desktop, por lo general Docker compose se instala automaticamente, para comprobarlo corre en la terminal:
 
 ```bash
  docker-compose -v
@@ -59,7 +59,7 @@ Nota: Si tienes Docker Desktop, por lo general Docker compose se instala automat
    ```bash
    docker-compose up --build -d
     ```
-3. Accede al navgador 
+3. Accede al navegador
 
     http://localhost:3000
 
